@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    /* image-resolution: 1000px; */
+}
+html{
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#OnlineLearning{
+    padding-top: 25px;
+    padding-left: 10px;
+    margin-left: 30PX;
+    /* display: flex; */
+    color: lightskyblue;
+    text-shadow: 50px red;
+    font-family:  Helvetica, sans-serif;
+    stroke-width: 10px;
+    opacity: 80%;
+
+}
+#menu {
+   display: flex;  
+}
+
+#menu a{
+   padding-left: 100px;
+   padding-top: 35px;
+   padding-right: 20px;
+   align-items: center;
+   text-decoration: none;
+   color: blanchedalmond;
+
+}
+button{
+   margin-left: 40px;
+   margin-top: 35px;
+   margin-bottom: 45px;
+   border-radius: 10px;
+   width: 100px;
+   border-color: gold;
+   background-color: lightcyan;   
+} 
+.header button:hover{
+    color: rgb(243, 2, 2);
+    
+}
+#menu a:hover{
+    color: lightseagreen;
+}
+.header{
+     padding: 0;
+}
+.div1{
+    padding: 200px 0 0 100px;
+    color: aqua;
+       
+}
+section{
+    display: flex;
+}
+h2{
+    color:lightseagreen;
+    margin-bottom:10PX ;
+
+}
+h1{
+    color: aliceblue;
+    margin-bottom:10PX ;
+}
+h3{
+    color: blanchedalmond;
+    margin-bottom:10PX ;
+}
+p{
+    color: azure;
+    margin-bottom:10PX ;
+}
+.div1 h1{
+    animation: slideFromLeft 0.8s ease-out;
+}
+.div1 h2{
+    animation: slideFromLeft 0.7s ease-out;
+}
+.div1 h3{
+    animation: slideFromLeft 0.9s ease-out;
+}
+.div1 p{
+    animation: slideFromLeft 1s ease-out;
+}
+@keyframes slideFromLeft {
+    from {
+        transform: translate(-100%);
+    }
+    to{
+        transform: translate(0);
+    }
+}
+/* .MAIN1{
+    display: flex;
+} */
+img
+{
+    padding-bottom: 100PX;
+    animation: slideFromLeft 1s ease-out;
+}
+video{
+    border-radius: 20px;
+    border-color: white;
+    border-width: 20px;
+}
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
+  }
+  
+  /* Style the video player controls */
+  /* You can customize these styles to fit your design */
+  video::-webkit-media-controls {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:red;
+    padding: 10px;
+  }
+  
+  video::-webkit-media-controls-play-button {
+    color: red;
+  }
+  
+  video::-webkit-media-controls-volume-slider {
+    width: 100px;
+  }
+  
+  video::-webkit-media-controls-time-remaining-display {
+    color: white;
+  }
+  
